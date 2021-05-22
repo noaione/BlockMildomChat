@@ -1,4 +1,11 @@
-# Block Mildom Chat
+<div align="center">
+<img src="https://raw.githubusercontent.com/noaione/BlockMildomChat/master/src/icons/icon500.png" height="250">
+</div>
+
+<div align="center">
+    <h1>Block Mildom Chat</h1>
+</div>
+
 A simple Chrome extension that will block any chat connection for Mildom.com
 
 The reason I made this is because mildom chat takes a lot of resources and sometimes lagged out the stream I'm watching.
