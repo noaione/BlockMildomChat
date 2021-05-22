@@ -1,0 +1,27 @@
+{
+    "manifest_version": 2,
+    "name": "Block Mildom Chat",
+    "description": "This extension will block the WebSockets connection that are used to establish chat connection, which lags your browser a lot",
+    "version": "1.0.0",
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "permissions": ["webRequest", "webRequestBlocking", "wss://*.mildom.com/*", "https://*.mildom.com/*"],
+    "browser_action": {
+        "default_icon": {
+            "16": "icons/icon16.png",
+            "32": "icons/icon32.png",
+            "48": "icons/icon48.png",
+            "128": "icons/icon128.png"
+        },
+        "default_title": "Block Mildom Chat"
+    },
+    "icons": {
+        "16": "icons/icon16.png",
+        "32": "icons/icon32.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+    }
+}
